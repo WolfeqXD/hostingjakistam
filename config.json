@@ -1,0 +1,20 @@
+{
+  "token": "MTQwMTk5NTI1MjE5NzQ5NDc4NA.GG1xXq.jPiAVO8q2mxgrEm1OfMgzGJuuzYBF9caHD1vwM",
+  "clientId": "1401995252197494784",
+  "guildId": "1400248239399108608",
+  "statuses": [
+    { "name": "Pomagam!", "type": "PLAYING" },
+    { "name": "Oglądam serwer", "type": "WATCHING" },
+    { "name": "Tworzę nowe funkcje", "type": "COMPETING" },
+    { "name": "Witam nowych członków", "type": "LISTENING" }
+  ],
+  "proposalChannelId": "1400248240817045581",
+  "verificationRoleId": "",
+  "logChannelId": "1400248243421577367",
+  "ticketRoleId": "1400248239525072983",
+  "welcomeChannelId": "1400248239973728319",
+  "goodbyeChannelId": "1400248239973728319",
+  "serverName": "XANAXGG",
+  "welcomeMessage": "Cieszymy się, że dołączyłeś do naszego serwera! Baw się dobrze!",
+  "goodbyeMessage": "Mamy nadzieję, że wrócisz do nas w przyszłości!"
+}
