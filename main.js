@@ -1,8 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const config = require('./config.json');
 const { loadCommands, loadEvents, deployCommands } = require('./handlers/handlerCommand');
-from discord.ext import commands
-import os
+const webserver = require('./webserver');
 
 const client = new Client({
     intents: [
@@ -21,3 +20,4 @@ loadEvents(client);
 deployCommands();
 
 client.login(config.token);
+webserver.keep_alive();
