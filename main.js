@@ -1,6 +1,8 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const config = require('./config.json');
 const { loadCommands, loadEvents, deployCommands } = require('./handlers/handlerCommand');
+from discord.ext import commands
+import os
 
 const client = new Client({
     intents: [
