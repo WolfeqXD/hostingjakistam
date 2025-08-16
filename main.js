@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const config = require('./config.json');
 const { loadCommands, loadEvents, deployCommands } = require('./handlers/handlerCommand');
 const webserver = require('./webserver');
-
+DISCORD_TOKEN = os.environ['discordkey']
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
